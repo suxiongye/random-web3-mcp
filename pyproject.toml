@@ -1,0 +1,27 @@
+[project]
+name = "randomweb3mcp"
+version = "0.1.0"
+description = "Multi-chain Random Number Generation MCP Service"
+authors = [
+    {name = "flyingsu", email = "417984021@qq.com"},
+]
+dependencies = [
+    "httpx>=0.28.1",
+    "numpy>=2.2.4",
+    "web3>=7.10.0",
+    "mcp>=1.6.0",
+]
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+    packages = ["."]
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.3.5",
+]
