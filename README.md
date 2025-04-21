@@ -319,15 +319,6 @@ JSON string containing random rarity array, formatted as:
 3. Probability distribution parameters need to provide correct parameter list according to specific distribution type
 4. It is recommended to use salt parameter in production environment to increase randomness
 
-### Usage Example
-
-After configuration, you can directly use the random number generation function of ZXLMCP in tico or Cursor:
-
-<img src="pic/generate_basic_random_demo.png" style="width:200px" />
-
-<img src="pic/generate_coordinate_demo.png" style="width:200px" />
-
-<img src="pic/generate_random_feature_demo.png" style="width:200px" />
 
 ## Error Handling
 
