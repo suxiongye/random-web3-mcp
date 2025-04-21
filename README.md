@@ -20,12 +20,12 @@ pip install -e .
 
 ### Configuration in tico or Cursor
 
-Add ZXLMCP service configuration in Cursor settings:
+Add random-web3-mcp service configuration in Cursor settings:
 
 ```json
 {
   "mcpServers": {
-    "zxlmcp": {
+    "random-web3-mcp": {
       "command": "uv",
       "args": ["--directory", "local_repo_directory/zxl-mcp-server", "run", "main.py"]
     }
