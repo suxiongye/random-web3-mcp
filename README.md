@@ -12,7 +12,7 @@ RandomWeb3MCP is a random element generation service based on EVM block hash. Th
 ## Installation
 
 ```bash
-git clone git@git.woa.com:zhixinlian/zxl-mcp-server.git
+git clone git@github.com:suxiongye/random-web3-mcp.git
 pip install -e .
 ```
 
